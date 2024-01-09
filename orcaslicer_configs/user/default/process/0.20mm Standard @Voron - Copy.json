@@ -1,0 +1,17 @@
+{
+    "bottom_shell_layers": "0",
+    "enable_overhang_speed": "0",
+    "from": "User",
+    "inherits": "0.20mm Standard @Voron",
+    "initial_layer_print_height": "0.32",
+    "is_custom_defined": "0",
+    "layer_height": "0.32",
+    "name": "0.20mm Standard @Voron - Copy",
+    "outer_wall_line_width": "0.7",
+    "print_settings_id": "0.20mm Standard @Voron - Copy",
+    "sparse_infill_density": "0%",
+    "spiral_mode": "1",
+    "top_shell_layers": "0",
+    "version": "1.9.0.2",
+    "wall_loops": "1"
+}

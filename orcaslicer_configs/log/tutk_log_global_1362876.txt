@@ -1,0 +1,3 @@
+[24-01-08 21:53:13.895267][I][7FAC21CDC740][Global] TUTK_SDK_Set_License_Key VERSION[4.3.3.0-0-ga2fe773_openssl_x64] REGION[all]
+[24-01-08 21:53:13.912274][I][7FAC131106C0][TPlatform] [tutk_platform_set_thread_name] iotc_conn_hdlr
+[24-01-08 21:53:13.912340][I][7FAC1290F6C0][TPlatform] [tutk_platform_set_thread_name] iotc_taskmgr

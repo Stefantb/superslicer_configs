@@ -1,0 +1,11 @@
+{
+    "before_layer_change_gcode": ";BEFORE_LAYER_CHANGE\n;[layer_z]\n;G92 E0\nTIMELAPSE_TAKE_FRAME\n",
+    "from": "User",
+    "inherits": "Voron 2.4 300 0.4 nozzle",
+    "is_custom_defined": "0",
+    "machine_start_gcode": "PRINT_START EXTRUDER=[nozzle_temperature_initial_layer] BED=[bed_temperature_initial_layer_single] Chamber=[chamber_temperature]\n",
+    "name": "Voron 2.4 300 0.4 nozzle - Stefans",
+    "print_host": "http://192.168.1.26",
+    "printer_settings_id": "Voron 2.4 300 0.4 nozzle - Stefans",
+    "version": "1.9.0.2"
+}

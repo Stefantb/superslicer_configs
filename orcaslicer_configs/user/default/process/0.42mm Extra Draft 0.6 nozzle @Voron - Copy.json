@@ -1,0 +1,12 @@
+{
+    "brim_object_gap": "0",
+    "brim_type": "outer_and_inner",
+    "enable_support": "1",
+    "from": "User",
+    "inherits": "0.42mm Extra Draft 0.6 nozzle @Voron",
+    "is_custom_defined": "0",
+    "name": "0.42mm Extra Draft 0.6 nozzle @Voron - Copy",
+    "print_settings_id": "0.42mm Extra Draft 0.6 nozzle @Voron - Copy",
+    "skirt_loops": "2",
+    "version": "1.9.0.2"
+}
