@@ -1,0 +1,14 @@
+{
+    "enable_support": "1",
+    "from": "User",
+    "inherits": "0.36mm Draft 0.6 nozzle @Voron",
+    "inner_wall_speed": "180",
+    "internal_solid_infill_speed": "180",
+    "is_custom_defined": "0",
+    "name": "0.36mm Draft 0.6 nozzle @Voron - slower",
+    "outer_wall_speed": "100",
+    "print_settings_id": "0.36mm Draft 0.6 nozzle @Voron - slower",
+    "sparse_infill_speed": "180",
+    "support_type": "tree(auto)",
+    "version": "1.9.0.2"
+}

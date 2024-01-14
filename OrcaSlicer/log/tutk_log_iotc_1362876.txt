@@ -1,2 +1,0 @@
-[24-01-08 21:53:13.911378][I][7FAC21CDC740][IOTC] IOTC_Initialize2 VERSION[4.3.3.0-0-ga2fe773_openssl_x64] disable Nebula
-[24-01-08 21:53:13.912298][I][7FAC21CDC740][SCHL] [IOTC_sCHL_initialize] version[OpenSSL 3.1.0 14 Mar 2023]

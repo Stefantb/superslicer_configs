@@ -22,10 +22,10 @@
     "is_custom_defined": "0",
     "name": "Voron Generic ASA - Copy",
     "nozzle_temperature": [
-        "255"
+        "253"
     ],
     "nozzle_temperature_initial_layer": [
-        "255"
+        "262"
     ],
     "slow_down_layer_time": [
         "0"
