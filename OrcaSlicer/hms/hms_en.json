@@ -2,24 +2,212 @@
     "device_error": {
         "en": [
             {
+                "ecode": "03004000",
+                "intro": "Printing stopped because homing Z axis failed."
+            },
+            {
+                "ecode": "05004003",
+                "intro": "Printing stopped because the printer was unable to parse the file. Please resend your print job."
+            },
+            {
+                "ecode": "05004004",
+                "intro": "The printer can't receive new print jobs while printing. Resend after the current print finishes."
+            },
+            {
+                "ecode": "07008002",
+                "intro": "The cutter is stuck. Please make sure the cutter handle is out."
+            },
+            {
+                "ecode": "07008003",
+                "intro": "Failed to pull out the filament from the extruder. This might be caused by clogged extruder or filament broken inside the extruder."
+            },
+            {
+                "ecode": "07008004",
+                "intro": "AMS failed to pull back filament. This could be due to a stuck spool or the end of the filament being stuck in the path."
+            },
+            {
+                "ecode": "07008005",
+                "intro": "The AMS failed to send out filament. You can clip the end of your filament flat, and reinsert. If this message persists, please check the PTFE tubes in AMS for any signs of wear and tear."
+            },
+            {
+                "ecode": "07008007",
+                "intro": "Extruding filament failed. The extruder might be clogged."
+            },
+            {
+                "ecode": "07008010",
+                "intro": "The AMS assist motor is overloaded. This could be due to entangled filament or a stuck spool."
+            },
+            {
+                "ecode": "07018003",
+                "intro": "Failed to pull out the filament from the extruder. There may be an extruder clog or broken filament inside the extruder."
+            },
+            {
+                "ecode": "07018004",
+                "intro": "AMS failed to pull back filament. This could be due to a stuck spool or the end of the filament being stuck in the path."
+            },
+            {
+                "ecode": "07018005",
+                "intro": "The AMS failed to send filament. You canclip the end of your filament flat, and reinsert. If this message persists, please check the PTFE tubes in AMS for any signs of wear and tear."
+            },
+            {
+                "ecode": "07018010",
+                "intro": "The AMS assist motor is overloaded. This could be due to entangled filament or a stuck spool."
+            },
+            {
+                "ecode": "07004001",
+                "intro": "The AMS has been disabled for a print, but it still has filament loaded. Please unload the AMS filament , and switch to the spool holder filament for printing."
+            },
+            {
+                "ecode": "05004014",
+                "intro": "Slicing for the print job failed. Please check your settings and restart the print job."
+            },
+            {
+                "ecode": "12008001",
+                "intro": "Cutting the filament failed. Please check to see if the cutter is stuck. Refer to the Assistant for solutions."
+            },
+            {
+                "ecode": "12008007",
+                "intro": "Failed to extrude the filament. This might be caused by clogged extruder or stuck filament. Refer to the Assistant for solutions."
+            },
+            {
+                "ecode": "12008010",
+                "intro": "Filament or spool may be stuck."
+            },
+            {
+                "ecode": "12008014",
+                "intro": "The filament location in the toolhead was not found. Refer to the Assistant for solutions."
+            },
+            {
+                "ecode": "12008015",
+                "intro": "Failed to pull out the filament from the toolhead. Please check if the filament is stuck, or the filament is broken inside the extruder or PTFE tube."
+            },
+            {
+                "ecode": "03004002",
+                "intro": "Printing Stopped because Auto Bed Leveling failed."
+            },
+            {
+                "ecode": "03008002",
+                "intro": "First layer defects were detected by the Micro Lidar. Please check the quality of the printed model before continuing your print."
+            },
+            {
+                "ecode": "03008003",
+                "intro": "Spaghetti defects were detected by the AI Print Monitoring. Please check the quality of the printed model before continuing your print."
+            },
+            {
+                "ecode": "03008004",
+                "intro": "Filament ran out. Please load new filament."
+            },
+            {
+                "ecode": "03008005",
+                "intro": "Toolhead front cover fell off. Please remount the front cover and check to make sure your print is going okay."
+            },
+            {
+                "ecode": "03008006",
+                "intro": "The build plate marker was not detected. Please confirm the build plate is correctly positioned on the heatbed with all four corners aligned, and the maker is clear."
+            },
+            {
+                "ecode": "07008011",
+                "intro": "AMS filament ran out. Please insert a new filament into the same AMS slot."
+            },
+            {
+                "ecode": "07018011",
+                "intro": "AMS filament ran out. Please insert a new filament into the same AMS slot."
+            },
+            {
+                "ecode": "07028011",
+                "intro": "AMS filament ran out. Please insert a new filament into the same AMS slot."
+            },
+            {
+                "ecode": "07038011",
+                "intro": "AMS filament ran out. Please insert a new filament into the same AMS slot."
+            },
+            {
+                "ecode": "03008007",
+                "intro": "There was an unfinished print job when the printer lost power. If the model is still adhered to the build plate, you can try resuming the print job."
+            },
+            {
+                "ecode": "03008008",
+                "intro": "Printing Stopped because nozzle temperature problem."
+            },
+            {
+                "ecode": "0300800B",
+                "intro": "The cutter is stuck. Please make sure the cutter handle is out."
+            },
+            {
+                "ecode": "03008010",
+                "intro": "Printing stopped because the hotend fan speed is abnormal."
+            },
+            {
+                "ecode": "12008011",
+                "intro": "AMS filament ran out. Please insert a new filament into the same AMS slot."
+            },
+            {
+                "ecode": "03008011",
+                "intro": "Detected build plate is not the same as the Gcode file. Please adjust slicer settings or use the correct plate."
+            },
+            {
+                "ecode": "03008013",
+                "intro": "Printing was paused manually. You can select \"Resume\" to continue printing."
+            },
+            {
+                "ecode": "03008015",
+                "intro": "The filament has run out, please load new filament in the \"filament\" page."
+            },
+            {
+                "ecode": "07008006",
+                "intro": "Unable to feed filament into the extruder. This could be due to entangled filament or a stuck spool."
+            },
+            {
+                "ecode": "07018006",
+                "intro": "Unable to feed filament into the extruder. This could be due to entangled filament or a stuck spool."
+            },
+            {
+                "ecode": "0300800A",
+                "intro": "A Filament pile-up was detected by the AI Print Monitoring. Please clean the filament from the waste chute."
+            },
+            {
+                "ecode": "07FF8006",
+                "intro": "Please feed filament into the PTFE tube until it can not be pushed any farther."
+            },
+            {
+                "ecode": "07FFC003",
+                "intro": "Please pull out the filament on the spool holder. If this message persists, please check to see if there is filament broken in the extruder or PTFE Tube. (Connect PTFE tube if you are about to use AMS)"
+            },
+            {
+                "ecode": "07FFC006",
+                "intro": "Please feed filament into the PTFE tube until it can not be pushed any farther."
+            },
+            {
+                "ecode": "12FF8003",
+                "intro": "Please pull out the filament on the spool holder. If this message persists, please check to see if there is filament broken in the extruder or PTFE Tube. (Connect PTFE tube if you are about to use AMS)"
+            },
+            {
+                "ecode": "12FFC003",
+                "intro": "Please pull out the filament on the spool holder. If this message persists, please check to see if there is filament broken in the extruder or PTFE Tube. (Connect PTFE tube if you are about to use AMS)"
+            },
+            {
+                "ecode": "12FF8006",
+                "intro": "Please feed filament into the PTFE tube until it can not be pushed any farther."
+            },
+            {
+                "ecode": "12FFC006",
+                "intro": "Please feed filament into the PTFE tube until it can not be pushed any farther."
+            },
+            {
+                "ecode": "12FF8010",
+                "intro": "Please check if the filament or the spool is stuck."
+            },
+            {
+                "ecode": "07FF8003",
+                "intro": "Please pull out the filament on the spool holder. If this message persists, please check to see if there is filament broken in the extruder. (Connect PTFE tube if you are about to use AMS)"
+            },
+            {
                 "ecode": "1000C003",
                 "intro": "Enabling traditional timelapse might lead to defects. Please enable it as needed?"
             },
             {
-                "ecode": "12FF8003",
-                "intro": "Please pull out the filament on the spool holder from the extruder or check if there is filament broken in the extruder, and then click the retry button."
-            },
-            {
-                "ecode": "12FFC003",
-                "intro": "Please pull out the filament on the spool holder from the extruder or check if there is filament broken in the extruder."
-            },
-            {
                 "ecode": "12008004",
                 "intro": "Failed to pull back the filament from the toolhead. Please check whether the filament is stuck. After troubleshooting, click the \"Retry\" button."
-            },
-            {
-                "ecode": "0300800A",
-                "intro": "Purged filaments have piled up in waste chute, which may cause a tool head collision. Please clean the filament. If cleaned or acceptable, tap the resume button to resume the print job."
             },
             {
                 "ecode": "0C008005",
@@ -48,10 +236,6 @@
             {
                 "ecode": "03008019",
                 "intro": "No build plate is placed."
-            },
-            {
-                "ecode": "12008007",
-                "intro": "Failed to extrude the filament. The extruder may be clogged or the filament may be stuck, please refer to HMS. After troubleshooting, click \"Retry\" button."
             },
             {
                 "ecode": "12018007",
@@ -91,10 +275,6 @@
             },
             {
                 "ecode": "03004005",
-                "intro": "The nozzle fan speed is abnormal."
-            },
-            {
-                "ecode": "03008010",
                 "intro": "The nozzle fan speed is abnormal."
             },
             {
@@ -146,10 +326,6 @@
                 "intro": "The device is in the process of binding and cannot respond to new binding requests."
             },
             {
-                "ecode": "03008015",
-                "intro": "The filament has run out, please load new filament in the \"filament\" page, then return back to the print page and tap \"Resume\" to resume the print job."
-            },
-            {
                 "ecode": "05014032",
                 "intro": "QR code binding is in progress, so device discovery binding cannot be performed. You can scan the QR code on the screen for binding or exit the QR code display page on screen and try device discovery binding."
             },
@@ -178,19 +354,11 @@
                 "intro": "Failed to feed the filament into the toolhead. Please check whether the filament is stuck. After troubleshooting, click the \"Retry\" button."
             },
             {
-                "ecode": "12FF8006",
-                "intro": "Please feed from the spool holder until the tool head filament sensor is triggered, and then click the \"Retry\" button."
-            },
-            {
                 "ecode": "12028010",
                 "intro": "Please check if the spool or filament is stuck. After troubleshooting, click the \"Retry\" button."
             },
             {
                 "ecode": "12038010",
-                "intro": "Please check if the spool or filament is stuck. After troubleshooting, click the \"Retry\" button."
-            },
-            {
-                "ecode": "12FF8010",
                 "intro": "Please check if the spool or filament is stuck. After troubleshooting, click the \"Retry\" button."
             },
             {
@@ -274,38 +442,6 @@
                 "intro": "Failed to cut the filament. Please check the cutter. After troubleshooting, click the \"Retry\" button."
             },
             {
-                "ecode": "07008002",
-                "intro": "The cutter is stuck. Please pull out the cutter handle and click the \"Retry\" button."
-            },
-            {
-                "ecode": "07008003",
-                "intro": "Failed to pull out the filament from the extruder. Please check whether the extruder is clogged or whether the filament is broken inside the extruder. After troubleshooting, click the \"Retry\" button."
-            },
-            {
-                "ecode": "07008004",
-                "intro": "Failed to pull back the filament from the toolhead to AMS. Please check whether the filament or the spool is stuck. After troubleshooting, click the \"Retry\" button."
-            },
-            {
-                "ecode": "07008005",
-                "intro": "Failed to feed the filament outside the AMS. Please clip the end of the filament flat and check to see if the spool is stuck. After troubleshooting, click the \"Retry\" button."
-            },
-            {
-                "ecode": "07008006",
-                "intro": "Failed to feed the filament into the toolhead. Please check whether the filament or the spool is stuck. After troubleshooting, click the \"Retry\" button."
-            },
-            {
-                "ecode": "07008007",
-                "intro": "Failed to extrude the filament. Please check if the extruder is clogged. After troubleshooting, click the \"Retry\" button."
-            },
-            {
-                "ecode": "07008010",
-                "intro": "AMS assist motor is overloaded. Please check if the spool or filament is stuck. After troubleshooting, click the \"Retry\" button."
-            },
-            {
-                "ecode": "07008011",
-                "intro": "AMS filament ran out. Please put a new filament into AMS and click the \"Retry\" button."
-            },
-            {
                 "ecode": "07018001",
                 "intro": "Failed to cut the filament. Please check the cutter. After troubleshooting, click the \"Retry\" button."
             },
@@ -314,32 +450,8 @@
                 "intro": "The cutter is stuck. Please pull out the cutter handle and click the \"Retry\" button."
             },
             {
-                "ecode": "07018003",
-                "intro": "Failed to pull out the filament from the extruder. Please check whether the extruder is clogged or whether the filament is broken inside the extruder. After troubleshooting, click the \"Retry\" button."
-            },
-            {
-                "ecode": "07018004",
-                "intro": "Failed to pull back the filament from the toolhead to AMS. Please check whether the filament or the spool is stuck. After troubleshooting, click the \"Retry\" button."
-            },
-            {
-                "ecode": "07018005",
-                "intro": "Failed to feed the filament outside the AMS. Please clip the end of the filament flat and check to see if the spool is stuck. After troubleshooting, click the \"Retry\" button."
-            },
-            {
-                "ecode": "07018006",
-                "intro": "Failed to feed the filament into the toolhead. Please check whether the filament or the spool is stuck. After troubleshooting, click the \"Retry\" button."
-            },
-            {
                 "ecode": "07018007",
                 "intro": "Failed to extrude the filament. Please check if the extruder clogged. After troubleshooting, click the \"Retry\" button."
-            },
-            {
-                "ecode": "07018010",
-                "intro": "AMS assist motor is overloaded. Please check if the spool or filament is stuck. After troubleshooting, click the \"Retry\" button."
-            },
-            {
-                "ecode": "07018011",
-                "intro": "AMS filament ran out. Please put a new filament into AMS and click the \"Retry\" button."
             },
             {
                 "ecode": "07028001",
@@ -374,10 +486,6 @@
                 "intro": "AMS assist motor is overloaded. Please check if the spool or filament is stuck. After troubleshooting, click the \"Retry\" button."
             },
             {
-                "ecode": "07028011",
-                "intro": "AMS filament ran out. Please put a new filament into AMS and click the \"Retry\" button."
-            },
-            {
                 "ecode": "07038001",
                 "intro": "Failed to cut the filament. Please check the cutter. After troubleshooting, click the \"Retry\" button."
             },
@@ -408,10 +516,6 @@
             {
                 "ecode": "07038010",
                 "intro": "AMS assist motor is overloaded. Please check if the spool or filament is stuck. After troubleshooting, click the \"Retry\" button."
-            },
-            {
-                "ecode": "07038011",
-                "intro": "AMS filament ran out. Please put a new filament into AMS and click the \"Retry\" button."
             },
             {
                 "ecode": "07008013",
@@ -452,10 +556,6 @@
             {
                 "ecode": "07FF8013",
                 "intro": "Timeout purging old filament: Please check if the filament is stuck or the extruder is clogged. After troubleshooting, click the \"Retry\" button."
-            },
-            {
-                "ecode": "12008001",
-                "intro": "Failed to cut the filament. Please check the cutter. After troubleshooting, click the \"Retry\" button."
             },
             {
                 "ecode": "12018001",
@@ -510,16 +610,8 @@
                 "intro": "Failed to feed the filament into the toolhead. Please check whether the filament is stuck. After troubleshooting, click the \"Retry\" button."
             },
             {
-                "ecode": "12008010",
-                "intro": "Please check if the spool or filament is stuck. After troubleshooting, click the \"Retry\" button."
-            },
-            {
                 "ecode": "12018010",
                 "intro": "Please check if the spool or filament is stuck. After troubleshooting, click the \"Retry\" button."
-            },
-            {
-                "ecode": "12008011",
-                "intro": "AMS filament has run out. Please insert a new filament into the AMS and click the \"Retry\" button."
             },
             {
                 "ecode": "12018011",
@@ -542,10 +634,6 @@
                 "intro": "Timeout while purging old filament. Please check if the filament is stuck or the extruder clogged. After troubleshooting, click the \"Retry\" button."
             },
             {
-                "ecode": "12008014",
-                "intro": "Failed to check the filament location in the tool head, please refer to the HMS. After troubleshooting, click the \"Retry\" button."
-            },
-            {
                 "ecode": "12018014",
                 "intro": "Failed to check the filament location in the tool head, please refer to the HMS. After troubleshooting, click the \"Retry\" button."
             },
@@ -556,10 +644,6 @@
             {
                 "ecode": "12038014",
                 "intro": "Failed to check the filament location in the tool head; please refer to the HMS. After troubleshooting, click the \"Retry\" button."
-            },
-            {
-                "ecode": "12008015",
-                "intro": "Failed to pull back the filament from the toolhead. Please check if the filament is stuck or the filament is broken inside the extruder. After troubleshooting, click the \"Retry\" button."
             },
             {
                 "ecode": "12018015",
@@ -674,14 +758,6 @@
                 "intro": "Failed to pull back the filament from the toolhead to AMS. Please check whether the filament or the spool is stuck. After troubleshooting, click the \"retry\" button."
             },
             {
-                "ecode": "07FFC003",
-                "intro": "Please pull out the filament on the spool holder from the extruder or check if there is filament  broken in the extruder, if AMS is to be used later,please connect PTFE tube to the coupler."
-            },
-            {
-                "ecode": "07FF8003",
-                "intro": "Please pull out the filament on the spool holder from the extruder or check if there is filament  broken in the extruder, if AMS is to be used later,please connect PTFE tube to the coupler and click the \"retry\" button."
-            },
-            {
                 "ecode": "0C00800A",
                 "intro": "The detected build plate is not the same as in G-code."
             },
@@ -690,20 +766,8 @@
                 "intro": "Check nozzle. Click \"Done\" if filament was extruded, otherwise push filament forward slightly and click \"Retry.\""
             },
             {
-                "ecode": "03008006",
-                "intro": "Build plate localization marker was not found. Please stop the print job and find the build plate. You can also tap \"Resume\" to force-resume the print job."
-            },
-            {
-                "ecode": "03008011",
-                "intro": "The current build plate is not the same as in G-code. Please stop the print job and replace the build plate. You can also tap \"Resume\" to force-resume the print job."
-            },
-            {
                 "ecode": "03008012",
                 "intro": ""
-            },
-            {
-                "ecode": "03008013",
-                "intro": "Printing was paused by the user. You can tap \"Resume\" to resume the print job."
             },
             {
                 "ecode": "0500402D",
@@ -826,24 +890,12 @@
                 "intro": "Filament is still loaded from the AMS when it has been disabled. Please unload AMS filament, load from spool holder, and restart print job."
             },
             {
-                "ecode": "12FFC006",
-                "intro": "Please feed from the spool holder until the tool head filament sensor is triggered."
-            },
-            {
-                "ecode": "07FFC006",
-                "intro": "Please feed from the spool holder until the tool head filament sensor is triggered."
-            },
-            {
                 "ecode": "0300800E",
                 "intro": "The print file is not available. Please check to see if the storage media has been removed."
             },
             {
                 "ecode": "05008013",
                 "intro": "The print file is not available. Please check to see if the storage media has been removed."
-            },
-            {
-                "ecode": "05004014",
-                "intro": "Failed to slice the printing job; please check the settings and restart the print job."
             },
             {
                 "ecode": "05004012",
@@ -870,10 +922,6 @@
                 "intro": "Filament is still loaded from the AMS after it has been disabled. Please unload the filament, load from the spool holder, and restart printing."
             },
             {
-                "ecode": "07FF8006",
-                "intro": "Please feed from the spool holder until the tool head filament sensor is triggered, and then click \"Retry\"."
-            },
-            {
                 "ecode": "0300800C",
                 "intro": "Skipping step detected, auto-recover complete; please resume print and check if there are any layer shift problems."
             },
@@ -894,20 +942,8 @@
                 "intro": "There was a problem downloading a file. Please check you network connection and resend the printing job."
             },
             {
-                "ecode": "03008005",
-                "intro": "Printing was paused because the front cover of tool head fell off. Please mount it back and tap \"Resume\" to resume the print job."
-            },
-            {
                 "ecode": "0300400A",
                 "intro": "Mechanical resonance frequency identification failed."
-            },
-            {
-                "ecode": "03008002",
-                "intro": "First layer defects were detected. If the defects are acceptable, tap \"Resume\" to resume the print job."
-            },
-            {
-                "ecode": "03008008",
-                "intro": "Nozzle temperature malfunction."
             },
             {
                 "ecode": "03008009",
@@ -916,10 +952,6 @@
             {
                 "ecode": "0300400E",
                 "intro": "The motor self-check failed."
-            },
-            {
-                "ecode": "0300800B",
-                "intro": "The cutter is stuck. Please pull out the cutter handle and click the resume button."
             },
             {
                 "ecode": "07008012",
@@ -936,10 +968,6 @@
             {
                 "ecode": "07038012",
                 "intro": "Failed to get AMS mapping table; please click \"Retry\" to continue."
-            },
-            {
-                "ecode": "07004001",
-                "intro": "Filament is still loaded from the AMS after it has been disabled. Please unload the filament, load from the spool holder, and restart printing."
             },
             {
                 "ecode": "07014001",
@@ -986,24 +1014,8 @@
                 "intro": "Printing was paused by the user. You can tap \"Resume\" to resume the print job."
             },
             {
-                "ecode": "03008003",
-                "intro": "Spaghetti defects were detected. If the defects are acceptable, tap \"Resume\" to resume the print job."
-            },
-            {
-                "ecode": "03008004",
-                "intro": "The filament ran out. Please load new filament in Temperature/Axis and tap \"Resume\" to resume the print job."
-            },
-            {
                 "ecode": "05004001",
                 "intro": "Failed to connect to Bambu Cloud. Please check your network connection."
-            },
-            {
-                "ecode": "05004003",
-                "intro": "There was a problem parsing gcode.3mf. Please resend the printing job."
-            },
-            {
-                "ecode": "05004004",
-                "intro": "Printing jobs are not allowed to be sent while printing."
             },
             {
                 "ecode": "05004005",
@@ -1014,20 +1026,8 @@
                 "intro": "There is not enough free storage space for the print job. Restoring to factory settings can release available space."
             },
             {
-                "ecode": "03008007",
-                "intro": "There was an unfinished print job when the printer powered off. Tap \"Resume\" to resume the print job."
-            },
-            {
-                "ecode": "03004000",
-                "intro": "Homing Z axis failed."
-            },
-            {
                 "ecode": "03004001",
                 "intro": "The printer timed out waiting for the nozzle to cool down before homing."
-            },
-            {
-                "ecode": "03004002",
-                "intro": "Mesh bed leveling failed."
             },
             {
                 "ecode": "03004006",
@@ -1066,7 +1066,7 @@
                 "intro": "Heatbed temperature malfunction."
             }
         ],
-        "ver": 202401291430
+        "ver": 202403181000
     },
     "device_hms": {
         "en": [
@@ -4137,5 +4137,5 @@
         ],
         "ver": 202401301630
     },
-    "version": "202401301630"
+    "version": "202403181000"
 }
