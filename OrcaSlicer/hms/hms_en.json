@@ -2,6 +2,18 @@
     "device_error": {
         "en": [
             {
+                "ecode": "0500403A",
+                "intro": "The current temperature is too low. In order to protect you and your printer. Printing task, moving axis and other operations is disabled. Please move the printer to an environment above 10 celsius degree."
+            },
+            {
+                "ecode": "07008006",
+                "intro": "Unable to feed filament into the extruder. This could be due to entangled filament or a stuck spool. If not, please check if the AMS PTFE tube is connected."
+            },
+            {
+                "ecode": "03008013",
+                "intro": "Printing was paused by the user. You can select \"Resume\" to continue printing."
+            },
+            {
                 "ecode": "03004000",
                 "intro": "Printing stopped because homing Z axis failed."
             },
@@ -146,16 +158,8 @@
                 "intro": "Detected build plate is not the same as the Gcode file. Please adjust slicer settings or use the correct plate."
             },
             {
-                "ecode": "03008013",
-                "intro": "Printing was paused manually. You can select \"Resume\" to continue printing."
-            },
-            {
                 "ecode": "03008015",
                 "intro": "The filament has run out, please load new filament in the \"filament\" page."
-            },
-            {
-                "ecode": "07008006",
-                "intro": "Unable to feed filament into the extruder. This could be due to entangled filament or a stuck spool."
             },
             {
                 "ecode": "07018006",
@@ -1066,10 +1070,18 @@
                 "intro": "Heatbed temperature malfunction."
             }
         ],
-        "ver": 202403181000
+        "ver": 202403311730
     },
     "device_hms": {
         "en": [
+            {
+                "ecode": "0500030000010024",
+                "intro": "The current temperature is too low. In order to protect you and your printer. Printing task, moving axis and other operations is disabled. Please move the printer to an environment above 10 celsius degree."
+            },
+            {
+                "ecode": "03000F0000010001",
+                "intro": "Abnormal accelerometer data detected. Please try to restart the printer."
+            },
             {
                 "ecode": "0300010000010008",
                 "intro": "An abnormality occurs during the heating process of the heatbed, the heating modules may be broken."
@@ -4043,10 +4055,6 @@
                 "intro": "A system hang occurred. Please restart the device."
             },
             {
-                "ecode": "03000F0000010001",
-                "intro": "The accelerometer data is unavailable. The communication connection to the tool head may be broken, or the accelerometer may be damaged."
-            },
-            {
                 "ecode": "0300120000020001",
                 "intro": "The front cover of the toolhead fell off."
             },
@@ -4135,7 +4143,7 @@
                 "intro": "The nozzle temperature is abnormal; the sensor may have an open circuit."
             }
         ],
-        "ver": 202401301630
+        "ver": 202403311730
     },
-    "version": "202403181000"
+    "version": "202403311730"
 }
