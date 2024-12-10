@@ -1,0 +1,25 @@
+{
+    "default_filament_colour": [
+        "#9A9996"
+    ],
+    "enable_pressure_advance": [
+        "1"
+    ],
+    "fan_min_speed": [
+        "20"
+    ],
+    "filament_settings_id": [
+        "Esun_ABS+_anti_warp"
+    ],
+    "filament_vendor": [
+        "Esun"
+    ],
+    "from": "User",
+    "inherits": "Voron Generic ABS",
+    "is_custom_defined": "0",
+    "name": "Esun_ABS+_anti_warp",
+    "pressure_advance": [
+        "0.025"
+    ],
+    "version": "2.1.1.0"
+}

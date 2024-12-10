@@ -1,0 +1,13 @@
+{
+    "enable_pressure_advance": [
+        "1"
+    ],
+    "filament_settings_id": [
+        "north PETG"
+    ],
+    "from": "User",
+    "inherits": "Voron Generic PETG",
+    "is_custom_defined": "0",
+    "name": "north PETG",
+    "version": "2.1.1.0"
+}

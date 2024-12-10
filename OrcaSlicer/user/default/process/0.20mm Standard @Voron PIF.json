@@ -1,6 +1,7 @@
 {
     "bridge_flow": "0.85",
-    "brim_type": "no_brim",
+    "brim_type": "outer_only",
+    "brim_width": "3",
     "from": "User",
     "inherits": "0.20mm Standard @Voron",
     "initial_layer_line_width": "0.56",
@@ -10,9 +11,10 @@
     "line_width": "0.45",
     "name": "0.20mm Standard @Voron PIF",
     "print_settings_id": "0.20mm Standard @Voron PIF",
+    "skirt_loops": "2",
     "sparse_infill_density": "40%",
     "support_speed": "100",
-    "top_shell_layers": "5",
+    "top_shell_layers": "3",
     "version": "1.9.0.2",
     "wall_loops": "5"
 }
