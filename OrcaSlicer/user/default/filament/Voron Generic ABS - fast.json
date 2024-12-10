@@ -1,0 +1,28 @@
+{
+    "chamber_temperature": [
+        "38"
+    ],
+    "fan_cooling_layer_time": [
+        "35"
+    ],
+    "filament_max_volumetric_speed": [
+        "200"
+    ],
+    "filament_settings_id": [
+        "Voron Generic ABS - fast"
+    ],
+    "from": "User",
+    "hot_plate_temp": [
+        "110"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "110"
+    ],
+    "inherits": "Voron Generic ABS",
+    "is_custom_defined": "0",
+    "name": "Voron Generic ABS - fast",
+    "slow_down_layer_time": [
+        "0"
+    ],
+    "version": "1.9.0.2"
+}

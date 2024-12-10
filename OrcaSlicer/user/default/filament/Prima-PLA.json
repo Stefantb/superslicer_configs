@@ -6,26 +6,29 @@
         "0"
     ],
     "filament_settings_id": [
-        "PolyLite-PLA"
+        "Prima-PLA"
     ],
     "filament_wipe": [
         "0"
     ],
     "from": "User",
     "hot_plate_temp": [
-        "70"
+        "65"
     ],
     "hot_plate_temp_initial_layer": [
         "70"
     ],
     "inherits": "Voron Generic PLA",
     "is_custom_defined": "0",
-    "name": "PolyLite-PLA",
+    "name": "Prima-PLA",
     "nozzle_temperature": [
+        "195"
+    ],
+    "nozzle_temperature_initial_layer": [
         "200"
     ],
     "pressure_advance": [
-        "0.045"
+        "0.06"
     ],
     "version": "1.9.0.2"
 }

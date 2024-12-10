@@ -5,30 +5,21 @@
     "enable_pressure_advance": [
         "1"
     ],
-    "filament_max_volumetric_speed": [
-        "11"
-    ],
     "filament_settings_id": [
-        "Polylite-ABS - 11mm3"
-    ],
-    "filament_type": [
-        "ABS"
+        "Voron Generic ASA - white"
     ],
     "from": "User",
     "hot_plate_temp": [
-        "115"
+        "110"
     ],
     "hot_plate_temp_initial_layer": [
-        "115"
+        "110"
     ],
     "inherits": "Voron Generic ASA",
     "is_custom_defined": "0",
-    "name": "Polylite-ABS - 11mm3",
-    "nozzle_temperature_initial_layer": [
-        "263"
-    ],
-    "pressure_advance": [
-        "0.025"
+    "name": "Voron Generic ASA - white",
+    "nozzle_temperature": [
+        "250"
     ],
     "slow_down_layer_time": [
         "0"
