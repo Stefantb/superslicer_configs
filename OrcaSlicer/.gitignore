@@ -1,3 +1,6 @@
 /OrcaSlicer.conf*
 log/
 plugins/
+system/*
+hms/*
+BambuNetworkEngine.conf
